@@ -46,6 +46,7 @@ public class HelloApplication extends Application implements EventHandler<Action
         anchorPane.setBottomAnchor(label,0.0);
         anchorPane.setRightAnchor(label, 0.0);
         anchorPane.getChildren().add(label);
+
         layout.getChildren().add(anchorPane);
 
         anchorPane.setTopAnchor(label2,0.0);
