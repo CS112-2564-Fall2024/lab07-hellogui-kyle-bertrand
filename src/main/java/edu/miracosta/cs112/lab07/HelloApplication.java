@@ -40,6 +40,7 @@ public class HelloApplication extends Application  { //inheriting core functiona
 
         anchorPane.setBottomAnchor(label,0.0);
         anchorPane.setRightAnchor(label, 0.0);
+
         anchorPane.getChildren().add(label);
         layout.getChildren().add(anchorPane);
 
